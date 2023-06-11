@@ -69,6 +69,60 @@ export const goerliCouncilConfig: CouncilConfig = {
         targets: [],
         calldatas: [],
       },
+      2: {
+        sentenceSummary:
+          "Vesting Vault participants should not be allowed to vote on core proposals.",
+        paragraphSummary:
+          "It is not enough for the vesting vault to have an unvestedMultiplier applied to the voting power it holds. The vault itself should not be approved for voting on core proposals at all. This will help balance incentives, where vesting participants might try to alter the vesting agreement themselves through a core vote.",
+        descriptionURL: "https://moreinfo.com",
+        targets: [],
+        calldatas: [],
+      },
+      3: {
+        sentenceSummary:
+          "Vesting Vault participants should not be allowed to vote on core proposals.",
+        paragraphSummary:
+          "It is not enough for the vesting vault to have an unvestedMultiplier applied to the voting power it holds. The vault itself should not be approved for voting on core proposals at all. This will help balance incentives, where vesting participants might try to alter the vesting agreement themselves through a core vote.",
+        descriptionURL: "https://moreinfo.com",
+        targets: [],
+        calldatas: [],
+      },
+      4: {
+        sentenceSummary:
+          "Vesting Vault participants should not be allowed to vote on core proposals.",
+        paragraphSummary:
+          "It is not enough for the vesting vault to have an unvestedMultiplier applied to the voting power it holds. The vault itself should not be approved for voting on core proposals at all. This will help balance incentives, where vesting participants might try to alter the vesting agreement themselves through a core vote.",
+        descriptionURL: "https://moreinfo.com",
+        targets: [],
+        calldatas: [],
+      },
+      5: {
+        sentenceSummary:
+          "Vesting Vault participants should not be allowed to vote on core proposals.",
+        paragraphSummary:
+          "It is not enough for the vesting vault to have an unvestedMultiplier applied to the voting power it holds. The vault itself should not be approved for voting on core proposals at all. This will help balance incentives, where vesting participants might try to alter the vesting agreement themselves through a core vote.",
+        descriptionURL: "https://moreinfo.com",
+        targets: [],
+        calldatas: [],
+      },
+      6: {
+        sentenceSummary:
+          "Vesting Vault participants should not be allowed to vote on core proposals.",
+        paragraphSummary:
+          "It is not enough for the vesting vault to have an unvestedMultiplier applied to the voting power it holds. The vault itself should not be approved for voting on core proposals at all. This will help balance incentives, where vesting participants might try to alter the vesting agreement themselves through a core vote.",
+        descriptionURL: "https://moreinfo.com",
+        targets: [],
+        calldatas: [],
+      },
+      7: {
+        sentenceSummary:
+          "Vesting Vault participants should not be allowed to vote on core proposals.",
+        paragraphSummary:
+          "It is not enough for the vesting vault to have an unvestedMultiplier applied to the voting power it holds. The vault itself should not be approved for voting on core proposals at all. This will help balance incentives, where vesting participants might try to alter the vesting agreement themselves through a core vote.",
+        descriptionURL: "https://moreinfo.com",
+        targets: [],
+        calldatas: [],
+      },
     },
   },
 
