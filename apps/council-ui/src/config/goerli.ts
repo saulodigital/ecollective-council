@@ -16,9 +16,9 @@ const goerliCoreVotingAddress = goerliContracts.find(
 const lockingVaultProxyAddress = goerliContracts.find(
   ({ name }) => name === "LockingVaultProxy",
 )?.address as string;
-const vestingVaultProxyAddress = goerliContracts.find(
-  ({ name }) => name === "VestingVaultProxy",
-)?.address as string;
+// const vestingVaultProxyAddress = goerliContracts.find(
+//   ({ name }) => name === "VestingVaultProxy",
+// )?.address as string;
 const gscVotingAddress = goerliContracts.find(
   ({ name }) => name === "GSCCoreVoting",
 )?.address as string;
@@ -43,12 +43,12 @@ export const goerliCouncilConfig: CouncilConfig = {
         type: "LockingVault",
         descriptionURL: "https://moreinfo.com",
       },
-      {
-        name: "Vesting Vault",
-        address: vestingVaultProxyAddress,
-        type: "VestingVault",
-        descriptionURL: "https://moreinfo.com",
-      },
+      // {
+      //   name: "Vesting Vault",
+      //   address: vestingVaultProxyAddress,
+      //   type: "VestingVault",
+      //   descriptionURL: "https://moreinfo.com",
+      // },
     ],
     proposals: {
       0: {

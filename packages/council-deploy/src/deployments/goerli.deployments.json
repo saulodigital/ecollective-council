@@ -203,6 +203,95 @@
           "name": "Airdrop"
         }
       ]
+    },
+    {
+      "name": "default",
+      "contracts": [
+        {
+          "name": "l3",
+          "address": "0x98c490402cb2a529613d93b6ca327799528bcf77",
+          "hash": "0x8017fcf64dd885b887b2186ffbb00a33eb261aa119b4853c9b608f5f9fd386ca",
+          "deploymentArgs": [
+            "l3",
+            "l3",
+            "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6"
+          ]
+        },
+        {
+          "name": "GSCCoreVoting",
+          "address": "0xe81ed8b6abcd8859d882d6d559b0fb5f32a6e785",
+          "hash": "0xd15888f1f6a077c82e3bc6d026ce63a7c2f094a55799b9ff74822bc7ffe29c13",
+          "deploymentArgs": [
+            "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6",
+            "2",
+            "1",
+            "0x0000000000000000000000000000000000000000",
+            []
+          ]
+        },
+        {
+          "name": "Timelock",
+          "address": "0x4a57dd79f344f7375d4673493daeac39ea79b8dd",
+          "hash": "0xa10ca55d1f51b1298e97be9e3fe24d53e393ec319ca2bc81b406258257753f8f",
+          "deploymentArgs": [
+            300,
+            "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6",
+            "0xe81ed8b6abcd8859d882d6d559b0fb5f32a6e785"
+          ]
+        },
+        {
+          "name": "Treasury",
+          "address": "0x99a64b6cfaf9d7da148efa7732d10004d49bcd5c",
+          "hash": "0xc67f49d5bb46c12d3af95f04664e7ada571714c8d514d4ecde09be0a2228975b",
+          "deploymentArgs": [
+            "0x4a57dd79f344f7375d4673493daeac39ea79b8dd"
+          ]
+        },
+        {
+          "name": "LockingVault",
+          "address": "0x44684cab09f40e35eff2c75a972832ec474a9ef2",
+          "hash": "0x523686e9346905849aa98dd12426799db3816db1061fcc656c4aeab327280505",
+          "deploymentArgs": [
+            "0x98c490402cb2a529613d93b6ca327799528bcf77",
+            300
+          ]
+        },
+        {
+          "name": "LockingVaultProxy",
+          "address": "0xdea7f106d6ddeb7fb71755bc76c9e779bf9898ca",
+          "hash": "0x1b913d57ac47ff8dafb66f4b4a65e5946597261cb9cf17020ca37408d7b50762",
+          "deploymentArgs": [
+            "0x4a57dd79f344f7375d4673493daeac39ea79b8dd",
+            "0x44684cab09f40e35eff2c75a972832ec474a9ef2"
+          ]
+        },
+        {
+          "name": "CoreVoting",
+          "address": "0x148719e93249b72ecdb974391e6dfd15092bc4ee",
+          "hash": "0x80de018e0e29b39fb41e416b52ea87f68ddc7e531a3010d682ccd9d6123b75c1",
+          "deploymentArgs": [
+            "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6",
+            "100000000000000000000",
+            "25000000000000000000",
+            "0xe81ed8b6abcd8859d882d6d559b0fb5f32a6e785",
+            [
+              "0xdea7f106d6ddeb7fb71755bc76c9e779bf9898ca"
+            ]
+          ]
+        },
+        {
+          "name": "GSCVault",
+          "address": "0x73d25c418666f88e0c4fe2264d6311ef6f06ecde",
+          "hash": "0xa4a00b38a2da23485e2b56d4093ff65cdf8e9e1eba4d36255015cc10b250971f",
+          "deploymentArgs": [
+            "0x148719e93249b72ecdb974391e6dfd15092bc4ee",
+            "50000000000000000000",
+            "0x4a57dd79f344f7375d4673493daeac39ea79b8dd"
+          ]
+        }
+      ],
+      "timestamp": 1686505278905,
+      "signer": "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6"
     }
   ]
 }
