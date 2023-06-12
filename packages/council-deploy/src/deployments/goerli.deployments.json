@@ -370,6 +370,92 @@
       ],
       "timestamp": 1686519685532,
       "deployer": "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6"
+    },
+    {
+      "name": "default",
+      "chainId": 5,
+      "contracts": [
+        {
+          "name": "ECO2 L3",
+          "address": "0x8ef2f42a2c2cdb7c54eb240d2f24896598178a36",
+          "hash": "0x61c48ec7a86481b53cb03ac2b465a5f76e9d1cd677b6e5026fc4a3374594fb20",
+          "deploymentArgs": [
+            "ECO2 L3",
+            "ECO2L3",
+            "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6"
+          ]
+        },
+        {
+          "name": "GSCCoreVoting",
+          "address": "0xe8986e52cebad3e961e69f81523fa974fd5021be",
+          "hash": "0x5f824530df04cb1dba3d30cfa4ad941d67f2402db62f110c4b7a676f78dbcaf3",
+          "deploymentArgs": [
+            "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6",
+            "10",
+            "1",
+            "0x0000000000000000000000000000000000000000",
+            []
+          ]
+        },
+        {
+          "name": "Timelock",
+          "address": "0xe4b482ebbb66e912dd8e823008e651f99decc180",
+          "hash": "0xe01241d15d3c9457804ea537090438b1d7ea7c39ccd19ed8ab750fe03c3cbcd6",
+          "deploymentArgs": [
+            60,
+            "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6",
+            "0xe8986e52cebad3e961e69f81523fa974fd5021be"
+          ]
+        },
+        {
+          "name": "Treasury",
+          "address": "0x738b5d30ecd7949d34211cd99aa1b77886ce6a06",
+          "hash": "0x40a55c329300220f0e439f75d99c77ec5b6942c2ab7acece271e36b7467f8dc4",
+          "deploymentArgs": ["0xe4b482ebbb66e912dd8e823008e651f99decc180"]
+        },
+        {
+          "name": "LockingVault",
+          "address": "0x839abdbb2509f240d270950fffb36bec90496d5d",
+          "hash": "0xc2f67bbbd823865b0604f5ea66d0ef6950c4f8774c8ac1ac62b83250e4fe26c6",
+          "deploymentArgs": [
+            "0x8ef2f42a2c2cdb7c54eb240d2f24896598178a36",
+            201600
+          ]
+        },
+        {
+          "name": "LockingVaultProxy",
+          "address": "0xdb0c06b52ea484225f912fb56b9f06a8ae041330",
+          "hash": "0xffc348d29b9847d850c1f0f7af1776f2d8736f26da885692e6a22b99f78fae72",
+          "deploymentArgs": [
+            "0xe4b482ebbb66e912dd8e823008e651f99decc180",
+            "0x839abdbb2509f240d270950fffb36bec90496d5d"
+          ]
+        },
+        {
+          "name": "CoreVoting",
+          "address": "0x22e9560683da84c4d1ee8ea8c219b4a56ea42d96",
+          "hash": "0x24c33c98613b8a9901be91bf79911caaadc87ddeacddf60052cc2e9596129dc6",
+          "deploymentArgs": [
+            "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6",
+            "20000000000000000000",
+            "3000000000000000000",
+            "0xe8986e52cebad3e961e69f81523fa974fd5021be",
+            ["0xdb0c06b52ea484225f912fb56b9f06a8ae041330"]
+          ]
+        },
+        {
+          "name": "GSCVault",
+          "address": "0x909bb18a1f73a8ffdc3fcddb74e3c78f91037eff",
+          "hash": "0x3f9fd4e44eda99289ced22a947ca0731db922eb744539fb6fdf0ddd970bed286",
+          "deploymentArgs": [
+            "0x22e9560683da84c4d1ee8ea8c219b4a56ea42d96",
+            "100000000000000000000000",
+            "0xe4b482ebbb66e912dd8e823008e651f99decc180"
+          ]
+        }
+      ],
+      "timestamp": 1686533377356,
+      "deployer": "0xF46F7EE8dE1faB3F993725A027359EBfEeE950b6"
     }
   ]
 }
